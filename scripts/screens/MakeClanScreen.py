@@ -1568,7 +1568,7 @@ class MakeClanScreen(Screens):
         self.create_cat_info()
 
         self.elements["select_cat"] = UIImageButton(
-            ui_scale(pygame.Rect((234, 348), (332, 52))),
+            ui_scale(pygame.Rect((232, 348), (340, 52))), #moved left edge 2 pixels left to fix centering
             "screens.make_clan.choose_leader",
             object_id="#nine_lives_button",
             starting_height=2,
